@@ -263,13 +263,13 @@
                 <div class="field-body">
                     <div class="field">
                         <p class="control is-expanded has-icons-left">
-                            <input class="input" type="text" placeholder="Nombre">
+                            <input name="name" class="input" type="text" placeholder="Nombre" aria-required="true" required>
                             <span class="icon is-small is-left"><i class="fas fa-user"></i></span>
                         </p>
                     </div>
                     <div class="field">
                         <p class="control is-expanded has-icons-left has-icons-right">
-                            <input class="input" type="email" placeholder="Email">
+                            <input name="email" class="input" type="email" placeholder="Email" aria-required="true" required>
                             <span class="icon is-small is-left"><i class="fas fa-envelope"></i></span>
                         </p>
                     </div>
@@ -287,7 +287,7 @@
                                 </a>
                             </p>
                             <p class="control is-expanded">
-                                <input class="input" type="tel" placeholder="Nº de teléfono">
+                                <input name="phone" class="input" type="tel" placeholder="Nº de teléfono">
                             </p>
                         </div>
                     </div>
@@ -296,13 +296,14 @@
 
             <div class="field is-horizontal">
                 <div class="field-label  is-normal">
-                    <label class="label">Provincia</label>
+                    <label class="label">Datos de la casa</label>
                 </div>
                 <div class="field-body">
                     <div class="field">
-                        <div class="control">
+                        <div class="control is-expanded">
                             <div class="select is-fullwidth">
-                                <select>
+                                <select name="province" aria-required="true" required>
+                                    <option value="">- Selecciona provincia -</option>
                                     <option>A Coruña</option>
                                     <option>Álava</option>
                                     <option>Albacete</option>
@@ -357,13 +358,19 @@
                             </div>
                         </div>
                     </div>
+                    <div class="field">
+                        <p class="control is-expanded has-icons-left has-icons-right">
+                            <input name="municipality" class="input" type="text" placeholder="Municipio" required>
+                            <span class="icon is-small is-left"><i class="fas fa-map-marker-alt"></i></span>
+                        </p>
+                    </div>
                 </div>
             </div>
 
 
             <div class="field is-horizontal">
                 <div class="field-label  is-normal">
-                    <label class="label">Commentario</label>
+                    <label class="label">Comentario</label>
                 </div>
                 <div class="field-body">
                     <div class="field">
