@@ -1,0 +1,99 @@
+@charset "utf-8";
+@import "../node_modules/breakpoint-sass/stylesheets/breakpoint";
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import "variables/**/*";
+@import "../node_modules/bulma/sass/utilities/_all";
+@import "../node_modules/bulma/sass/base/_all";
+@import "../node_modules/bulma/sass/elements/_all";
+@import "../node_modules/bulma/sass/components/_all";
+@import "../node_modules/bulma/sass/grid/_all";
+@import "../node_modules/bulma/sass/layout/_all";
+@import "../node_modules/bulma/sass/form/_all";
+@import "utils/**/*";
+@import "base/**/*";
+@import "components/**/*";
+@import "elements/**/*";
+@import "layout/**/*";
+@import "pages/**/*";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.content a:not(.button) {
+  text-decoration: underline;
+}
+
+.step-icon {
+  font-size: 3em;
+  width: 2em;
+  height: 2em;
+  color: white;
+  border: 8px solid white;
+  line-height: 1;
+  vertical-align: center;
+  font-weight: bold;
+  border-radius: 100%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.section.contact-form {
+  .container {
+    @include from($tablet) {
+      min-width: 840px;
+      form {
+        padding: 3rem;
+      }
+    }
+  }
+}
+.faq .container{
+  width :100%;
+}
+
+.collapsible {
+  @include from($tablet){
+    margin: 0 5rem;
+  }
+  .title {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    span.icon {
+      margin-left: auto;
+    }
+  }
+
+  .info {
+    margin-top: 1rem;
+  }
+
+  .collapse,
+  .expand {
+    cursor: pointer;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  .info,
+  .collapse {
+    display: none;
+  }
+
+  &.expanded {
+    .info,
+    .collapse {
+      display: block;
+    }
+
+    .expand {
+      display: none;
+    }
+  }
+}

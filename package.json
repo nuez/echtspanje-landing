@@ -1,0 +1,39 @@
+{
+  "name": "Flean_GULP",
+  "version": "1.0.0",
+  "description": "Flean sites compilation",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/juampynr/DrupalCampSpain.git"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "breakpoint-sass": "^2.7.1",
+    "compass-importer": "^0.4.1",
+    "node": "^10",
+    "node-sass": "^4.9",
+    "browser-sync": "^2.26.3",
+    "bulma": "^0.7.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-beautify": "^2.0.0",
+    "gulp-compress": "0.0.9",
+    "gulp-concat": "^2.6.1",
+    "gulp-css-globbing": "^0.2.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-jshint": "^2.0.0",
+    "gulp-livereload": "^4.0.1",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.0.6",
+    "gulp-shell": "^0.5.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "jshint-stylish": "^2.1.0",
+    "hamburgers": "^1.1.3",
+    "yargs": "^11.1.0"
+  },
+  "dependencies": {}
+}
