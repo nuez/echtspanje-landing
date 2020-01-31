@@ -50,21 +50,28 @@ html {
     }
   }
 }
-.faq .container{
-  width :100%;
+
+.faq .container {
+  width: 100%;
 }
 
 .collapsible {
-  @include from($tablet){
+  @include from($tablet) {
     margin: 0 5rem;
   }
+
+
   .title {
     margin-bottom: 0;
     display: flex;
     align-items: center;
     cursor: pointer;
+
     span.icon {
       margin-left: auto;
+    }
+    &:hover{
+      text-decoration: underline;
     }
   }
 
