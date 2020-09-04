@@ -11,7 +11,7 @@
     "breakpoint-sass": "^2.7.1",
     "compass-importer": "^0.4.1",
     "node": "^10",
-    "node-sass": "^4.9",
+    "node-sass": "^4.13",
     "browser-sync": "^2.26.3",
     "bulma": "^0.7.2",
     "gulp": "^3.9.1",
