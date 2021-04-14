@@ -19,7 +19,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+.content{
+  hyphens: auto;
+}
 section.main {
   position: relative;
   &:before {
