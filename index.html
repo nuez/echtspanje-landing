@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="es-ES">
 <head>
-    <title>Vive la cultura, naturaleza y gastronomía del interior de España.</title>
+    <title>Comparte tu casa rural con el mundo.</title>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-M9NXQ3C');</script>
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-M9NXQ3C');</script>
     <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,13 +46,23 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Facebook Pixel Code -->
     <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
             'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '2770248516385572');
         fbq('track', 'PageView');
@@ -56,87 +74,171 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9NXQ3C"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9NXQ3C"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
 <!-- End Google Tag Manager (noscript) -->
-<section class="section hero is-medium is-light is-bold">
-    <div class="container">
-        <div class="columns is-vcentered is-variable is-5">
-            <div class="column is-half content">
+<section class="section hero is-fullheight main">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-vcentered is-variable is-5">
+                <div class="column is-half content">
 
-                <img src="/logo.svg?update-09-2020" alt="EchtSpanje logo" loading="lazy" style="max-width: 20rem"/>
-                <h1>
-                    Anuncia tu casa rural en <a href="https://www.autenticaespaña.es" target="_blank">autenticaespaña.es</a>  y
-                    consigue
-                    <span class="has-text-primary">más reservas</span>
-                    a
-                    <span class="has-text-primary">mejores precios</span>.
-                </h1>
-                <div class="description is-size-5">Como referentes en <strong>experiencias rurales</strong> en España en
-                    el mercado Europeo, queremos ponerte en contacto con miles de posibles huéspedes para que conozcan
-                    tu casa rural.
+                    <img src="/logo.svg?update-09-2020" alt="EchtSpanje logo" loading="lazy" style="max-width: 20rem"/>
+                    <h1 class="is-size-1">
+                        Cuéntanos <u><span class="has-text-primary">tu pasión</span></u><br>por <u><span
+                            class="has-text-primary">tu casa rural</span></u>.
+                    </h1>
+                    <div class="description is-size-4"><strong>Queremos compartir con
+                        <u>los viajeros del mundo</u>
+                        los paisajes sorprendentes y las experiencias únicas del interior de España.
+                        Anuncia tu casa rural en una plataforma dedicada <u>exclusivamente</u>
+                        a dar a conocer la desconocida <i>auténtica</i>
+                        España.
+                    </strong>
+                    </div>
+                    <br>
+
+                    <a class="button is-primary is-large"
+                       onclick="getElementById('contact-form').classList.add('is-active')">¿Hablamos?</a>
                 </div>
-                <br>
-                <a class="button is-primary is-large" href="https://registrate.autenticaespana.es" target="_blank">Quiero darme de alta</a>
-            </div>
-            <div class="column column  is-half">
-                <figure>
-                    <img src="/images/mockup.svg" loading="lazy" alt="autenticaespaña.es Mockup Macbook"/>
-                </figure>
+                <div class="column column  is-half">
+                    <figure>
+                        <img src="/images/mockup.svg" loading="lazy" alt="autenticaespaña.es Mockup Macbook"/>
+                    </figure>
+                </div>
             </div>
         </div>
     </div>
 </section>
+<div id="contact-form" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+        <div class="box">
+            <p class="has-text-centered is-size-3">
+                Déjanos tu número de teléfono
+            </p>
+            <p class="has-text-centered">
+                y te llamamos.
+            </p>
+            <br>
+            <br>
+            <form id="autentica-espana-contact-form" class="form" action="https://formspree.io/f/xrgrbzke"
+                  method="POST">
+                <div class="field is-grouped">
+                    <div class="control is-expanded">
+                        <input type="phone" name="phone" placeholder="Nº de teléfono" class="input is-large"
+                               required="required"/>
+                    </div>
+                    <div class="control">
+                        <button id="autentica-espana-contact-form submit" class="button is-primary input is-large">
+                            Enviar
+                        </button>
+                    </div>
+                </div>
+                <p id="autentica-espana-contact-form-status" class="has-text-centered is-size-5"></p>
+            </form>
+
+        </div>
+    </div>
+    <button class="modal-close is-large" aria-label="close"
+            onclick="getElementById('contact-form').classList.remove('is-active')"></button>
+</div>
+
+<script>
+    var form = document.getElementById("autentica-espana-contact-form");
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("autentica-espana-contact-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            status.innerHTML = "¡Gracias! En breve te llamaremos.";
+            form.reset()
+        }).catch(error => {
+            status.innerHTML = "Alá Algo ha fallado"
+        });
+    }
+
+    form.addEventListener("submit", handleSubmit)
+</script>
 <section class="section hero is-medium">
     <div class="container">
         <div class="columns">
             <div class="column"></div>
             <div class="column is-8">
-                <p class="has-text-centered content is-size-3">
-                    Queremos que se descubra la <strong>auténtica España rural</strong>: sus paisajes, su
-                    cultura, su gastronomía y vinicultura, desde la Sierra de Grazalema hasta el Valle del Jerte.
+                <p class="has-text-centered content is-size-2">
+                    <strong>No somos otro booking.com</strong>
                 </p>
+                <p class="has-text-centered">
+                    <span class="icon"><i class="fas fa-star"></i></span>
+                </p>
+                <br>
+                <p class="has-text-centered content is-size-3">
+                    Hemos viajado por España y hemos experimentado la cultura y la gastronomía que ofrecen sus tierras.
+                    Nos hemos dado cuenta que realmente muy poca gente, tanto dentro como fuera de España, conoce
+                    la sorprendente riqueza de los rincones de España.
+                </p>
+                <p class="has-text-centered">
+                    <span class="icon"><i class="fas fa-star"></i></span>
+                </p>
+                <br>
+                <p class="has-text-centered content is-size-4">
 
+                    Sí, queremos ayudarte a alquilar tu casa rural.<br><br>
+                    Y sí, lo nuestro no deja de ser un negocio.
+<br><br>
+                    Pero nuestro negocio va de la mano de nuestra pasión: queremos compartir nuestras experiencias y
+                    contar la historía de la Auténtica España al mundo.
+                </p>
                 <div class="columns">
                     <div class="column"></div>
                     <div class="column is-8">
                         <div class="content is-size-4">
                             <ul>
+                                <li class="is-flex" style="margin-bottom:1rem">
+                                    <span class="icon is-large"><i class="fas fa-check fa-lg has-text-success"
+                                                                   style="margin-right:2rem"></i></span>
+                                    <div>
+                                        <span><strong>Tenemos criterio.</strong></span>
+                                        <br>
+                                        <span class="is-size-5">Sólo anunciamos las casas rurales con más encanto en las zonas más autóctonas y
+                                            auténticas de España.</span>
+                                    </div>
+                                </li>
+                                <li class="is-flex" style="margin-bottom:1rem">
+                                    <span class="icon is-large"><i class="fas fa-check fa-lg has-text-success"
+                                                                   style="margin-right:2rem"></i></span>
+                                    <div>
+                                        <span><strong>No hablo inglés/holandés/alemán....</strong></span>
+                                        <br>
+                                        <span class="is-size-5">Ofrecemos un servicio de traducción telefónico en el momento para los anfitriones y huespedes.</span>
+                                    </div>
+                                </li>
+                                <li class="is-flex" style="margin-bottom:1rem">
+                                    <span class="icon is-large"><i class="fas fa-check fa-lg has-text-success"
+                                                                   style="margin-right:2rem"></i></span>
+                                    <div>
+                                        <span><strong>No escribo inglés/holandés/alemán...</strong></span>
+                                        <br>
+                                        <span class="is-size-5">Nos encargamos de la redacción y traducción del anuncio de tu casa en todos los idiomas.</span>
+                                    </div>
+                                </li>
 
                                 <li class="is-flex" style="margin-bottom:1rem">
                                     <span class="icon is-large"><i class="fas fa-check fa-lg has-text-success"
                                                                    style="margin-right:2rem"></i></span>
                                     <div>
-                                        <span><strong>¿No cobras? No pagas.</strong></span>
+                                        <span><strong>Todos ganamos.</strong></span>
                                         <br>
-                                        <span class="is-size-5">No hay gastos de alta o de mantenimiento. Sólo cobramos una comisión de 12% por cada reserva que se realice a través de la página web.</span>
-                                    </div>
-                                </li>
-                                <li class="is-flex" style="margin-bottom:1rem">
-                                    <span class="icon is-large"><i class="fas fa-check fa-lg has-text-success"
-                                                                   style="margin-right:2rem"></i></span>
-                                    <div>
-                                        <span><strong>¡Sin complicaciones!</strong></span>
-                                        <br>
-                                        <span class="is-size-5">Nos encargamos de la traducción de contenidos y la promoción de tu casa en holandés.</span>
-                                    </div>
-                                </li>
-                                <li class="is-flex" style="margin-bottom:1rem">
-                                    <span class="icon is-large"><i class="fas fa-check fa-lg has-text-success"
-                                                                   style="margin-right:2rem"></i></span>
-                                    <div>
-                                        <span><strong>No hay exclusividad.</strong></span>
-                                        <br>
-                                        <span class="is-size-5">Puedes sincronizar la disponibilidad de tu casa con tu perfil en Booking.com, AirBnB y otras plataformas.</span>
-                                    </div>
-                                </li>
-                                <li class="is-flex" style="margin-bottom:1rem">
-                                    <span class="icon is-large"><i class="fas fa-check fa-lg has-text-success"
-                                                                   style="margin-right:2rem"></i></span>
-                                    <div>
-                                        <span><strong>100% control.</strong></span>
-                                        <br>
-                                        <span class="is-size-5">Eres el dueño de tu anuncio. Tú decides cuáles son tus tarifas y las fechas de disponibilidad.</span>
+                                        <span class="is-size-5">Tú ganas reservas, nosotros ganamos una comisión sobre cada reserva (no hay gastos por mantenimiento), y juntos ganamos el corazón de nuestros viajeros.</span>
                                     </div>
                                 </li>
                             </ul>
@@ -149,68 +251,16 @@
         </div>
         <div class="has-text-centered">
             <br>
-            <span class="icon"><i class="fas fa-star"></i></span> <span class="icon"><i class="fas fa-star"></i></span>
             <span class="icon"><i class="fas fa-star"></i></span>
             <br>
             <br>
             <br>
-            <a class="button is-info is-large is-rounded" href="https://registrate.autenticaespana.es" target="_blank">Anunciar mi casa</a>
+             <a class="button is-info is-large"
+                       onclick="getElementById('contact-form').classList.add('is-active')">¿Hablamos?</a>
         </div>
     </div>
 </section>
-<section class="section hero is-primary is-bold is-medium">
-    <div class="container">
-        <div class="is-size-1 has-text-centered">
-            Date de alta en solo 4 pasos.
-            <br>
-            <br>
-        </div>
-        <div class="columns is-multiline is-variable is-5" style="max-width: 800px;">
-            <div class="column is-half">
-                <div class="content has-text-centered" style="margin-bottom: 2rem">
-                    <div class="step-icon">1</div>
-                    <h3 class="has-text-white"><a href="https://registrate.autenticaespana.es" target="_blank" class="has-text-white">Envíanos</a> tus datos.</h3>
-                    <p>
-                        Envíanos la información de tu casa con alguna foto o enlace a tu página web. Nos pondremos en
-                        contacto contigo cuanto antes.
-                    </p>
-                </div>
-            </div>
-            <div class="column is-half">
-                <div class="content has-text-centered" style="margin-bottom: 2rem">
-                    <div class="step-icon">2</div>
-                    <h3 class="has-text-white">Nos encargamos de los contenidos</h3>
-                    <p>
-                        Una vez revisado y aprobado el alojamiento, nosotros nos encargamos de recopilar y traducir
-                        todos los contenidos y publicarlos en la página web.
-                    </p>
-                </div>
-            </div>
-            <div class="column is-half">
-                <div class="content has-text-centered" style="margin-bottom: 2rem">
-                    <div class="step-icon">3</div>
-                    <h3 class="has-text-white">Gestiona tu anuncio.</h3>
-                    <p>
-                        Puedes editar y gestionar tú mismo los precios y suplementos del alojamiento sin ninguna
-                        restricción. Te facilitamos la aplicación para hacerlo de manera fácil e intuitiva.
-                    </p>
-                </div>
-            </div>
-            <div class="column is-half">
-                <div class="content has-text-centered" style="margin-bottom: 2rem">
-                    <div class="step-icon">4</div>
-                    <h3 class="has-text-white">¡A por más reservas!</h3>
-                    <p>Nuestro equipo gestionará los pagos con tarjeta. Para lo demás, podrás gestionarlo tú mismo
-                        directamente con los huéspedes.<br> (Y te echamos un cable si te hace falta)</p>
-                </div>
-            </div>
-        </div>
-        <div class="has-text-centered content">
-            <a href="https://registrate.autenticaespana.es" target="_blank" class="is-size-3 has-text-white">¡Quiero empezar ya!</a>
-        </div>
-    </div>
-</section>
-<section class="section hero is-white is-medium faq">
+<section class="section hero is-light is-medium faq">
     <div class="container">
         <div class="has-text-centered is-size-4">
             <p>¿Te queda alguna duda? Aquí van algunas preguntas y respuestas frecuentes.</p>
@@ -219,7 +269,8 @@
         </div>
         <div class="collapsible content box is-fullwidth">
             <div class="is-size-4 title has-text-info">
-                <span>¿Quién puede publicar su casa en autenticaespaña.es?</span><span class="icon collapse"><i
+                <span>¿Váis a aceptar mi casa rural?</span><span
+                    class="icon collapse"><i
                     class="fas fa-minus"></i></span><span class="icon expand"><i class="fas fa-plus"></i></span></div>
             <div class="info is-size-5 content">
                 <p>
@@ -231,268 +282,39 @@
             </div>
         </div>
         <div class="collapsible content box is-fullwidth">
-            <div class="is-size-4 title has-text-info"><span>¿Por qué en Holanda?</span><span
+            <div class="is-size-4 title has-text-info"><span>¿Va distinado a viajeros extranjeros?</span><span
                     class="icon collapse"><i
                     class="fas fa-minus"></i></span><span class="icon expand"><i class="fas fa-plus"></i></span></div>
             <div class="info is-size-5 content">
-                <p>
-                    Es por todos conocido que España destaca por su gastronomía, cultura y naturaleza, en gran parte
-                    desconocidas fuera de España. Las zonas rurales cuentan con un potencial turístico tremendo, que no
-                    se está aprovechando a día de hoy.
-                </p>
-                <p>
-                    Nuestro objetivo es dar a conocer las joyas rurales de España a la gente de fuera, empezando por los
-                    Países Bajos, fomentando el turismo en las zonas del interior que más se lo merecen.
-                </p>
+                Lanzamos nuestra web en los paises que creemos que más les va a gustar la españa rural. A parte de Autentica España (autenticaespana.es),
+                lanzamos nuestra plataforma también en holandés (echtspanje.nl), inglés (therealspain.co.uk) y en alemán (dasechtespanien.de).
             </div>
         </div>
 
         <div class="collapsible content box is-fullwidth">
-            <div class="is-size-4 title has-text-info"><span>¿En qué áreas se enfoca autenticaespaña.es?</span><span
+            <div class="is-size-4 title has-text-info"><span>¿Sabeis que hay un virus que se llama Covid-19?</span><span
                     class="icon collapse"><i
                     class="fas fa-minus"></i></span><span class="icon expand"><i class="fas fa-plus"></i></span></div>
             <div class="info is-size-5 content">
-                <p>
-                    Queremos enfocarnos principalmente en áreas de España que son populares para los locales pero
-                    todavía desconocidas para los turistas de fuera, por ejemplo:
-                </p>
-                <ul>
-                    <li>
-                        Sierra de Grazalema
-                    </li>
-                    <li>
-                        Valles Pasiegos
-                    </li>
-                    <li>
-                        Valle de Jerte
-                    </li>
-                    <li>
-                        Sierra de Gredos
-                    </li>
-                </ul>
+              Sabemos que han sido tiempos duros para nuestros anfitriones. No podemos hacer que desaparazca el virus ni
+                que despararezcan las restricciones. Lo que sí que podemos hacer es estar preparados para cuando ya se pueda
+                y ayudar a nuestros anfitriones en lo que podamos y ofrecer a nuestros viajeros una experiencia inolvidable.
             </div>
         </div>
 
-        <div class="collapsible content box is-fullwidth">
-            <div class="is-size-4 title has-text-info"><span>¿Cómo pueden pagar los huéspedes?</span><span
-                    class="icon collapse"><i
-                    class="fas fa-minus"></i></span><span class="icon expand"><i class="fas fa-plus"></i></span></div>
-            <div class="info is-size-5 content">
-                <p>
-                    Cobramos el importe del anticipo de la reserva a través de la web. A la hora de reservar, captamos los
-                    datos de pago del cliente. Una vez confirmada la reserva por el anfitrión, dentro de las 24 horas
-                    siguientes, se procede al cobro del importe del anticipo de la reserva.
-                </p>
-                <p>
-                    Para la gestión de los pagos de los anticipos, utilizamos <a href="https://stripe.com/es" target="_blank">Stripe</a>,
-                    un servicio que nos permite tener la máxima transparencia con nuestros clientes.
-                </p>
-            </div>
+        <br><br>
+        <div class="has-text-centered">
+              <a class="button is-primary is-large"
+                       onclick="getElementById('contact-form').classList.add('is-active')">¿Hablamos?</a>
         </div>
-        <div class="collapsible content box is-fullwidth">
-            <div class="is-size-4 title has-text-info"><span>¿Los huéspedes pueden cancelar la reserva?</span><span
-                    class="icon collapse"><i
-                    class="fas fa-minus"></i></span><span class="icon expand"><i class="fas fa-plus"></i></span></div>
-            <div class="info is-size-5 content">
-                <p>El Propietario tiene la posibilidad de fijar el Anticipo que cobra al Viajero en el momento de hacer la Reserva.
-                </p>
-                <p>El Propietario debe definir su política de cancelación y devolución, y decidir qué cantidades retornará del Anticipo en función del tiempo que falta hasta la fecha de llegada al alojamiento, y el Viajero tendrá que aceptar estas condiciones antes de hacer la Reserva. Estas condiciones pueden incluir varios rangos de tiempo y compensaciones.
-                </p>
-            </div>
-        </div>
-        <div class="collapsible content box is-fullwidth">
-            <div class="is-size-4 title has-text-info"><span>¿Puedo cancelar una reserva como anfitrión?</span><span
-                    class="icon collapse"><i
-                    class="fas fa-minus"></i></span><span class="icon expand"><i class="fas fa-plus"></i></span></div>
-            <div class="info is-size-5 content">
-                <p>
-                    Intentamos que no sea necesario la cancelación de la reserva. Disponemos de herramientas para
-                    sincronizar la disponibilidad con otros servicios y páginas web para evitar doble reservas.
-                </p>
-                <p>
-                    En el caso de que fuera necesario cancelar, se aplicará un cargo de 9% sobre el importe del anticipo
-                    para cubrir los gastos que suponen el cargo y la devolución del importe. </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="section hero is-medium is-light contact-form">
-    <div class="container">
-        <form action="https://formspree.io/xvokwngy" method="POST" class="form box" id="sign-up">
-            <div class="has-text-centered content">
-                <h2 class="has-text-info is-size-3">¡Empieza a conseguir más reservas!</h2>
-                <p class="is-size-5 subtitle">Rellena el siguiente formulario y nos ponemos en contacto contigo cuanto
-                    antes.</p>
-                <p>
-                    <span class="icon has-text-grey-light"><i class="fas fa-star"></i></span> <span
-                        class="icon has-text-grey-light"><i class="fas fa-star"></i></span> <span
-                        class="icon has-text-grey-light"><i class="fas fa-star"></i></span>
-                </p>
-            </div>
-            <div class="is-divider" data-content="OR"></div>
-            <div class="field is-horizontal">
-                <div class="field-label is-normal">
-                    <label class="label">Datos personales</label>
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <p class="control is-expanded has-icons-left">
-                            <input name="name" class="input" type="text" placeholder="Nombre" aria-required="true"
-                                   required>
-                            <span class="icon is-small is-left"><i class="fas fa-user"></i></span>
-                        </p>
-                    </div>
-                    <div class="field">
-                        <p class="control is-expanded has-icons-left has-icons-right">
-                            <input name="email" class="input" type="email" placeholder="Email" aria-required="true"
-                                   required>
-                            <span class="icon is-small is-left"><i class="fas fa-envelope"></i></span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="field is-horizontal">
-                <div class="field-label  is-normal"></div>
-                <div class="field-body">
-                    <div class="field is-expanded">
-                        <div class="field has-addons">
-                            <p class="control">
-                                <a class="button is-static">
-                                    +34
-                                </a>
-                            </p>
-                            <p class="control is-expanded">
-                                <input name="phone" class="input" type="tel" placeholder="Nº de teléfono">
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="field is-horizontal">
-                <div class="field-label  is-normal">
-                    <label class="label">Datos de la casa</label>
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <div class="control is-expanded">
-                            <div class="select is-fullwidth">
-                                <select name="province" aria-required="true" required>
-                                    <option value="">- Selecciona provincia -</option>
-                                    <option>A Coruña</option>
-                                    <option>Álava</option>
-                                    <option>Albacete</option>
-                                    <option>Alicante</option>
-                                    <option>Almería</option>
-                                    <option>Asturias</option>
-                                    <option>Ávila</option>
-                                    <option>Badajoz</option>
-                                    <option>Baleares</option>
-                                    <option>Barcelona</option>
-                                    <option>Burgos</option>
-                                    <option>Cáceres</option>
-                                    <option>Cádiz</option>
-                                    <option>Cantabria</option>
-                                    <option>Castellón</option>
-                                    <option>Ciudad Real</option>
-                                    <option>Córdoba</option>
-                                    <option>Cuenca</option>
-                                    <option>Girona</option>
-                                    <option>Granada</option>
-                                    <option>Guadalajara</option>
-                                    <option>Gipuzkoa</option>
-                                    <option>Huelva</option>
-                                    <option>Huesca</option>
-                                    <option>Jaén</option>
-                                    <option>La Rioja</option>
-                                    <option>Las Palmas</option>
-                                    <option>León</option>
-                                    <option>Lérida</option>
-                                    <option>Lugo</option>
-                                    <option>Madrid</option>
-                                    <option>Málaga</option>
-                                    <option>Murcia</option>
-                                    <option>Navarra</option>
-                                    <option>Ourense</option>
-                                    <option>Palencia</option>
-                                    <option>Pontevedra</option>
-                                    <option>Salamanca</option>
-                                    <option>Segovia</option>
-                                    <option>Sevilla</option>
-                                    <option>Soria</option>
-                                    <option>Tarragona</option>
-                                    <option>Santa Cruz de Tenerife</option>
-                                    <option>Teruel</option>
-                                    <option>Toledo</option>
-                                    <option>Valencia</option>
-                                    <option>Valladolid</option>
-                                    <option>Vizcaya</option>
-                                    <option>Zamora</option>
-                                    <option>Zaragoza</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <p class="control is-expanded has-icons-left has-icons-right">
-                            <input name="municipality" class="input" type="text" placeholder="Municipio" required>
-                            <span class="icon is-small is-left"><i class="fas fa-map-marker-alt"></i></span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="field is-horizontal">
-                <div class="field-label  is-normal"></div>
-                <div class="field-body">
-                    <div class="field is-expanded">
-                        <p class="control has-icons-left">
-                            <span class="icon"><i class="fas fa-link"></i></span>
-                            <input name="url" class="input" pattern="https://.*" type="url" placeholder="Página web">
-                        </p>
-                        <p class="help">
-                            Una página web donde ya está publicada tu casa.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="field is-horizontal">
-                <div class="field-label  is-normal">
-                    <label class="label">Comentario</label>
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <div class="control">
-                            <textarea class="textarea" placeholder="Dínos cómo te podemos ayudar..."></textarea>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="field is-horizontal">
-                <div class="field-label">
-                    <!-- Left empty for spacing -->
-                </div>
-                <div class="field-body">
-                    <div class="field">
-                        <div class="control">
-                            <button class="button is-primary is-medium">
-                                ¡Empezar ya!
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </form>
     </div>
 </section>
 
 <section class="section hero is-dark">
     <div class="container">
         <div class="has-text-centered is-size-7">
-            autenticaespaña.es es una marca de Nuez Web Solutions SLU | Inscrita en el Registro Mercantil de Madrid, Tomo
+            autenticaespaña.es es una marca de Nuez Web Solutions SLU | Inscrita en el Registro Mercantil de Madrid,
+            Tomo
             30187, Folio 171, inscripción 1 con hoja M-543337 | CIF
             B86544962
         </div>
@@ -513,8 +335,8 @@
 </script>
 <script type="text/javascript">
     setTimeout(function () {
-    window.Beacon('init', '289cbf65-cd97-4d57-9f89-39c269e18345')
-}, 3000)
+        window.Beacon('init', '289cbf65-cd97-4d57-9f89-39c269e18345')
+    }, 3000)
 </script>
 </body>
 </html>
