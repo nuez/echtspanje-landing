@@ -90,26 +90,34 @@
     <div class="modal-content">
         <div class="box">
             <p class="has-text-centered is-size-3">
-                Déjanos tu número de teléfono
-            </p>
-            <p class="has-text-centered">
-                y te llamamos.
+                Déjanos tus datos y te llamamos
             </p>
             <br>
             <br>
             <form id="autentica-espana-contact-form" class="form" action="https://formspree.io/f/xrgrbzke"
                   method="POST">
-                <div class="field is-grouped">
                     <div class="control is-expanded">
-                        <input type="phone" name="phone" placeholder="Nº de teléfono" class="input is-large"
+                        <div class="field">
+                        <input type="textfield" name="name" placeholder="Nombre*" class="input"
                                required="required"/>
+                        </div>
+                        <div class="field">
+                        <input type="phone" name="phone" placeholder="Nº de teléfono*" class="input "
+                               required="required"/>
+                        </div>
+                        <div class="field">
+                        <textarea name="textarea" class="textarea" rows="4" placeholder="Cuéntanos sobre tu casa" class="input "></textarea>
+                        </div>
+                        <div class="field">
+                        <input type="checkbox" name="whatsapp" id="whatsapp-checkbox"/><label for="whatsapp-checkbox">Prefiero que me escribas por Whatsapp</label>
+                        </div>
+                        <div class="field">
+                            <button id="autentica-espana-contact-form submit" class="send-form-button button is-primary input is-large">
+                                Enviar
+                            </button>
+                        </div>
                     </div>
-                    <div class="control">
-                        <button id="autentica-espana-contact-form submit" class="send-form-button button is-primary input is-large">
-                            Enviar
-                        </button>
-                    </div>
-                </div>
+
                 <p id="autentica-espana-contact-form-status" class="has-text-centered is-size-5"></p>
             </form>
 
@@ -297,23 +305,6 @@
         </div>
     </div>
 </section>
-<script type="text/javascript">!function (e, t, n) {
-    function a() {
-        var e = t.getElementsByTagName("script")[0], n = t.createElement("script");
-        n.type = "text/javascript", n.async = !0, n.src = "https://beacon-v2.helpscout.net", e.parentNode.insertBefore(n, e)
-    }
-
-    if (e.Beacon = n = function (t, n, a) {
-        e.Beacon.readyQueue.push({method: t, options: n, data: a})
-    }, n.readyQueue = [], "complete" === t.readyState) return a();
-    e.attachEvent ? e.attachEvent("onload", a) : e.addEventListener("load", a, !1)
-}(window, document, window.Beacon || function () {
-});
-</script>
-<script type="text/javascript">
-    setTimeout(function () {
-        window.Beacon('init', '289cbf65-cd97-4d57-9f89-39c269e18345')
-    }, 3000)
-</script>
+<a class="whatsapp-beacon" href="https://wa.me/34644354343?text=Hola%21%20%C2%BFMe%20pod%C3%A9is%20decir%20c%C3%B3mo%20puedo%20alquilar%20mi%20casa%20rural%20con%20Aut%C3%A9nticaEspa%C3%B1a.es%3F" target="_blank"><img src="images/whatsapp.png" alt="whatsapp-link"></a>
 </body>
 </html>
