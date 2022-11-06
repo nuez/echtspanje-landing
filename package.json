@@ -6,7 +6,7 @@
     "@creativebulma/bulma-tooltip": "^1.2.0",
     "browser-sync": "^2.26.7",
     "bulma": "^0.8.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-beautify": "^2.0.0",
     "gulp-compress": "0.0.9",
